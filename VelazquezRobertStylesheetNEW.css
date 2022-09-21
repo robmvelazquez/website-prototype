@@ -1,0 +1,128 @@
+body {
+background-color: White;
+}
+.item1 { grid-area: header; }
+.item2 { grid-area: menu; }
+.item3 { grid-area: main; }
+.item4 { grid-area: right; }
+.item5 { grid-area: footer; }
+
+/* Going to use this later!
+.grid-container {
+  display: grid;
+  grid-template-areas:
+    'header header header header header header'
+    'menu main main main right right'
+    'menu footer footer footer footer footer';
+  gap: 0px;
+  background-color: #E3901F;
+  padding: 0px;
+}
+*/
+
+.grid-container > div {
+  background-color: rgba(255, 255, 255, 0.8);
+  text-align: center;
+  padding: 0px 0;
+  font-size: 30px;
+}
+h1 {
+color: Orange;
+text-align: center;
+display: block;
+margin: 0 auto;
+padding: 30px;
+background-color: black;
+}
+
+.paragraph {
+  font-family: "Times New Roman", Times, serif;
+  font-size: 30px;
+  text-align:center;
+  margin: 35px;
+}
+
+span.boldtext {
+    font-weight: bold;
+}
+
+span.italictext {
+    font-style: italic;
+}
+
+#topnav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 20;
+  overflow: hidden;
+  background-color: black;
+}
+
+#topnav li {
+  float: left;
+  border-right:1px solid #bbb;
+}
+
+#topnav li:last-child {
+  border-right: none;
+}
+
+#topnav li a {
+  display: block;
+  color: white;
+  text-align: center;
+  padding: 30px 30px;
+  text-decoration: none;
+}
+
+#topnav li a:hover:not(.active) {
+  background-color: #111;
+}
+
+.active {
+  background-color: #04AA6D;
+}
+
+#List ul {
+  display: block;
+  list-style-type: disc;
+  margin: 35px;
+  padding-left: 40px;
+}
+
+table, td, th {
+  border: 5px solid grey;
+}
+
+th, td {
+  padding: 5px;
+  text-align: center;
+  vertical-align: center;
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+ 
+
+
+}
+
+td {
+  height: 70px;
+
+}
+
+th {
+  background-color: #E3901F;
+  color: white;
+  
+}
+
+.center{
+ margin: 0 auto;
+ width: 800px;
+ display: block;
+}
+
+
